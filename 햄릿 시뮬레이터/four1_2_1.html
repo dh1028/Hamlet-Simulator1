@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>햄릿 시뮬레이터</title>
+  <link rel="stylesheet" href="style_choice.css">
+</head>
+<body>
+  <header>
+    <button class="back-button" type="button" onclick="navigateToBefore()">←</button>
+    <h3 class="title-name">햄릿 시뮬레이터</h3>
+    <button class="back-button" type="button" onclick="navigateToNext()">→</button>
+    <script type="text/javascript">
+      function navigateToBefore() {window.location.href = "play1_2_1.html";}
+      function navigateToNext() {window.location.href = "five1_2_1_1.html";}
+    </script>
+  </header>
+  <main class="contents">
+    <p>연극 후,</p>
+    <p>드디어 왕을 죽일 기회가 왔습니다!</p><br>
+    <p>그런데 클로디어스는 </p>
+    <p>선왕을 죽인 것에 대한 죄책감 때문에</p>
+    <p>회개 기도를 하고 있습니다.</p><br>
+    <p>기도를 하다 죽은 사람은</p>
+    <p>천국에 간다고 믿은 햄릿.</p>
+    <p class="final-text">지금 왕을 죽여도 되는 걸까요?</p>
+
+    <div class="box bg-1">
+      <button class="button button--antiman button--round-l button--text-medium" onclick="navigateToNext1()"><span>기회가 언제 또 찾아올지 모르니 지금 죽인다.</span></button>
+      <button class="button button--antiman button--round-l button--text-medium" onclick="navigateToNext2()"><span>육체만의 복수는 진정한 복수가 아니므로 다음 기회를 노린다.</span></button>
+      <script type="text/javascript">
+        function navigateToNext1() {window.location.href = "five1_2_1_1.html";}
+        function navigateToNext2() {window.location.href = "five1_2_1_2.html";}
+      </script>
+    </div>
+  </main>
+</body>
+</html>

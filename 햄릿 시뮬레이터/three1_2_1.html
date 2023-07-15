@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>햄릿 시뮬레이터</title>
+  <link rel="stylesheet" href="style_choice.css">
+</head>
+<body>
+  <header>
+    <button class="back-button" type="button" onclick="navigateToBefore()">←</button>
+    <h3 class="title-name">햄릿 시뮬레이터</h3>
+    <button class="back-button" type="button" onclick="navigateToNext()">→</button>
+    <script type="text/javascript">
+      function navigateToBefore() {window.location.href = "two1_2.html";}
+      function navigateToNext() {window.location.href = "play1_2_1.html";}
+    </script>
+  </header>
+  <main class="contents">
+    <p class="first-text">"아버지!"</p><br>
+    <p>클로디어스는 햄릿이 갑자기 친근하게 대하는 것이</p>
+    <p>의심스러웠지만 자신의 범행을 알게 되었을 것이라고는</p>
+    <p>상상도 할 수 없었습니다.</p><br>
+    <p>그러던 도중,</p>
+    <p>성에 극단이 온다는 소식을 들은 햄릿은</p>
+    <p>망령의 존재를 의심하며 왕의 본심을 떠보기 위해</p>
+    <p class="final-text">국왕 살해의 연극을 해 보이도록 극단에게 명하였습니다.</p>
+
+    <div class="box bg-1">
+      <button class="button button--antiman button--round-l button--text-medium" onclick="navigateToNext1()"><span>연극 보러 가기</span></button>
+      <script type="text/javascript">
+        function navigateToNext1() {window.location.href = "play1_2_1.html";}
+      </script>
+    </div>
+  </main>
+</body>
+</html>

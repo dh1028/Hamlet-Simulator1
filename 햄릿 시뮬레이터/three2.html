@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>햄릿 시뮬레이터</title>
+  <link rel="stylesheet" href="style_final.css">
+</head>
+<body>
+  <header>
+    <button class="back-button" type="button" onclick="navigateToBefore()">←</button>
+    <h3 class="title-name">햄릿 시뮬레이터</h3>
+    <button class="back-button" type="button" onclick="navigateToNext()">→</button>
+    <script type="text/javascript">
+      function navigateToBefore() {window.location.href = "two1.html";}
+      function navigateToNext() {window.location.href = "result2.html";}
+    </script>
+  </header>
+  <main class="contents">
+    <p class="first-text">햄릿은 곧바로 왕의 침실로 향했습니다.</p>
+    <p>그러나, 왕을 죽이려 했던 햄릿을 왕비가 막아</p>
+    <p>왕비가 햄릿의 손에 죽게 됩니다.</p><br>
+    <p>왕비의 죽음에 분노한 왕은 햄릿을 칼로 찌르고,</p>
+    <p>칼에 찔린 햄릿은 죽기 직전의 순간에</p>
+    <p>칼로 왕을 죽인 후 숨을 거두었습니다.</p><br>
+    <p class="final-text">- THE END -</p>
+    <div class="button" onclick="location.href='result2.html'">
+      <p class="btnText">결과 보기</p>
+      <div class="btnTwo">
+        <p class="btnText2">→</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

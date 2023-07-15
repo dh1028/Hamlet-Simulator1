@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>햄릿 시뮬레이터</title>
+  <link rel="stylesheet" href="style_choice.css">
+</head>
+<body>
+  <header>
+    <button class="back-button" type="button" onclick="navigateToBefore()">←</button>
+    <h3 class="title-name">햄릿 시뮬레이터</h3>
+    <button class="back-button" type="button" onclick="navigateToNext()">→</button>
+    <script type="text/javascript">
+      function navigateToBefore() {window.location.href = "one.html";}
+      function navigateToNext() {window.location.href = "two1_2.html";}
+    </script>
+  </header>
+  <main class="contents">
+    <p class="first-text">그 날 밤,</p>
+    <p>햄릿은 침실로 돌아오자마자 잠이 들었습니다.</p><br>
+    <p>"내가 따라오라 하지 않았느냐."</p><br>
+    <p>햄릿이 따라오지 않자, 망령은 햄릿의 꿈에 나타나</p>
+    <p class="final-text">그때 하고 싶었던 말을 하기 시작합니다.</p>
+
+    <div class="box bg-1">
+      <button class="button button--antiman button--round-l button--text-medium" onclick="navigateToNext1()"><span>망령의 이야기 듣기</span></button>
+      <script type="text/javascript">
+        function navigateToNext1() {window.location.href = "two1_2.html";}
+      </script>
+    </div>
+  </main>
+</body>
+</html>

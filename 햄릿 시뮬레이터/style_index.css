@@ -1,0 +1,65 @@
+h1 {
+  margin-top: 40%;
+  font-size: 30px;
+}
+
+.center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background: #fffef4;
+  margin : 15px auto;
+  width : 300px;
+  height : 54px;
+  overflow: hidden;
+  text-align : center;
+  transition : .2s;
+  cursor : pointer;
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+
+.btnTwo {
+  position : relative;
+  width : 200px;
+  height : 100px;
+  margin-top: -100px;
+  padding-top: 2px;
+  background : #fff06d;
+  right : -300px;
+  transition : .3s;
+}
+.button:hover .btnTwo{ /*When hovering over .button change .btnTwo*/
+  right: -235px;
+}
+
+.btnText {
+  color : #3D4C53;
+  transition : .3s;
+  letter-spacing: 13px;
+  font-weight: bolder;
+}
+.button:hover .btnText{ /*When hovering over .button change .btnText*/
+  margin-right : 60px;
+}
+
+.btnText2 {
+  margin-top : 63px;
+  margin-left : -133px;
+  color : #FFF;
+  font-weight: bolder;
+}
+
+.button:active { /*Clicked and held*/
+  box-shadow: 0px 5px 6px rgba(0,0,0,0.3);
+}

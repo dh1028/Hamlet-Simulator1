@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>햄릿 시뮬레이터</title>
+  <link rel="stylesheet" href="style_choice.css">
+</head>
+<body>
+  <header>
+    <button class="back-button" type="button" onclick="navigateToBefore()">←</button>
+    <h3 class="title-name">햄릿 시뮬레이터</h3>
+    <button class="back-button" type="button" onclick="navigateToNext()">→</button>
+    <script type="text/javascript">
+      function navigateToBefore() {window.location.href = "three1_2_1.html";}
+      function navigateToNext() {window.location.href = "four1_2_1.html";}
+    </script>
+  </header>
+  <main class="contents">
+    <div style="text-align: center;"><embed src="play.mp4" width="400px" height="200px"></div>
+    <br><p>연극에서 국왕 살해 장면이 나오자,</p>
+    <p>클로디어스는 즉시 그 자리를 박차고 나갑니다.</p><br>
+    <p>이것을 본 햄릿은</p>
+    <p>선왕의 죽음에 대한 내막을 확신하게 되고,</p>
+    <p class="final-text">왕을 죽이기 위해 기회를 노립니다.</p>
+
+    <div class="box bg-1">
+      <button class="button button--antiman button--round-l button--text-medium" onclick="navigateToNext1()"><span>왕 처단하러 가기</span></button>
+      <script type="text/javascript">
+        function navigateToNext1() {window.location.href = "four1_2_1.html";}
+      </script>
+    </div>
+  </main>
+</body>
+</html>

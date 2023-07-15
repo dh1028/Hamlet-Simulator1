@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>햄릿 시뮬레이터</title>
+  <link rel="stylesheet" href="style_choice.css">
+</head>
+<body>
+  <header>
+    <button class="back-button" type="button" onclick="navigateToBefore()">←</button>
+    <h3 class="title-name">햄릿 시뮬레이터</h3>
+    <button class="back-button" type="button" onclick="navigateToNext()">→</button>
+    <script type="text/javascript">
+      function navigateToBefore() {window.location.href = "plot.html";}
+      function navigateToNext() {window.location.href = "two1.html";}
+    </script>
+  </header>
+  <main class="contents">
+    <p>햄릿은 궁 초소에서 밤마다</p>
+    <p>선왕의 망령이 나타난다는 말을 듣게 되었습니다.</p>
+    <p>한밤중에 이를 확인하고자 초소로 간 햄릿은</p>
+    <p>망령을 만날 수 있었는데요,</p><br>
+    <p>망령은 햄릿에게만 전할 말이 있는지</p>
+    <p>다른 곳으로 가자고 손짓합니다.</p><br>
+    <p class="final-text">망령을 따라갈 것인가요?</p>
+
+    <div class="box bg-1">
+      <button class="button button--antiman button--round-l button--text-medium" onclick="navigateToNext1()"><span>망령을 따라가서 이야기를 들어본다.</span></button>
+      <button class="button button--antiman button--round-l button--text-medium" onclick="navigateToNext2()"><span>의심스러우니 따라가지 않는다.</span></button>
+      <script type="text/javascript">
+        function navigateToNext1() {window.location.href = "two1.html";}
+        function navigateToNext2() {window.location.href = "two2.html";}
+      </script>
+    </div>
+  </main>
+</body>
+</html>
